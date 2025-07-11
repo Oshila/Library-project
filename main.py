@@ -155,3 +155,10 @@ def librarian_menu(librarian):
                 library.save_books()
                 print("Book removed successfully.")
             else:
+                              print("Book not found.")
+        else:
+            print("Invalid option.")
+
+# -------- START PROGRAM --------
+if __name__ == "__main__":
+    main_menu()
